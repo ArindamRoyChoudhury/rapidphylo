@@ -12,8 +12,7 @@ Authors@R:
            role = "aut"),
     person(given = "Ying",
            family = "Li",
-           role = c("aut"),
-           email = "yil4013@med.cornell.edu"),
+           role = "aut"),
     person(given = "Laura",
            family = "Kubatko",
            role = c("aut", "ths"))
