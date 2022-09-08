@@ -11,6 +11,8 @@
 #' @return An estimated tree-topology in Newick format.
 #' @export
 #'
+#' @references Jing Peng, Haseena Rajeevan, Laura Kubatko, and Arindam RoyChoudhury (2021) \emph{A fast likelihood approach for estimation of large phylogenies from continuous trait data}. Molecular Phylogenetics and Evolution 161 107142.
+#'
 #' @examples
 #' # A dataset "Human_Allele_Frequencies" is loaded with the package;
 #' # it has allele frequencies in 402,430 sites for 48 human populations and one outgroup human population.

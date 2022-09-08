@@ -41,3 +41,6 @@ rd_tre <- RDM(Human_Allele_Frequencies, outgroup = 'San', use = "pairwise.comple
 plot(rd_tre, use.edge.length = FALSE, cex = 0.5)
 
 }
+\references{
+Jing Peng, Haseena Rajeevan, Laura Kubatko, and Arindam RoyChoudhury (2021) \emph{A fast likelihood approach for estimation of large phylogenies from continuous trait data}. Molecular Phylogenetics and Evolution 161 107142.
+}
