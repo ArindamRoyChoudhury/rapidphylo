@@ -5,9 +5,9 @@
 - There were no ERRORs or WARNINGs. 
 
 - NOTE:
-    > checking installed package size ... NOTE
-    > installed size is 14.1Mb
-    > sub-directories of 1Mb or more:
+    > checking installed package size ... NOTE  
+    > installed size is 14.1Mb  
+    > sub-directories of 1Mb or more:  
     > data  14.1Mb
   
     Response: The data is necessary.
