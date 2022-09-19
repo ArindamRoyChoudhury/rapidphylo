@@ -1,32 +1,33 @@
-Package: rapidphylo
 Type: Package
-Title: Rapidly Estimate Phylogeny From Large Allele Frequency Data Using Root Distances Method
+Package: rapidphylo
+Title: Rapidly Estimate Phylogeny From Large Allele Frequency Data Using
+    Root Distances Method
 Version: 0.1.0
-Authors@R: 
-  c(person(given = "Arindam",
-           family = "RoyChoudhury",
-           role = c("aut", "cre", "cph"),
-           email = "arr2014@med.cornell.edu"),
-    person(given = "Jing",
-           family = "Peng",
-           role = "aut"),
-    person(given = "Ying",
-           family = "Li",
-           role = "aut"),
-    person(given = "Laura",
-           family = "Kubatko",
-           role = c("aut", "ths"))
-           )
-Description: RDM estimates tree-topology from large allele frequency data using Root Distances Method. Assuming a Brownian Motion model, likelihood estimation is used to estimate the Root Distances, from which the tree-topology is inferred. 
+Authors@R: c(
+    person("Arindam", "RoyChoudhury", , "arr2014@med.cornell.edu", role = c("aut", "cre", "cph")),
+    person("Jing", "Peng", role = "aut"),
+    person("Ying", "Li", role = "aut"),
+    person("Laura", "Kubatko", role = c("aut", "ths"))
+  )
+Author: Arindam RoyChoudhury [aut, cre, cph], Jing Peng [aut], Ying Li
+    [aut], Laura Kubatko [aut, ths]
+Maintainer: Arindam RoyChoudhury <arr2014@med.cornell.edu>
+Description: Root Distances Method estimates tree-topology from large
+    allele frequency data using Root Distances Method. Assuming a Brownian
+    Motion model, likelihood estimation is used to estimate the Root
+    Distances, from which the tree-topology is inferred.
 License: AGPL-3
 URL: https://github.com/ArindamRoyChoudhury/rapidphylo
 BugReports: https://github.com/ArindamRoyChoudhury/rapidphylo/issues
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    ape,
+    phangorn,
+    stats
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
-Depends: R (>= 4.1.0)
-Imports:
-    stats,
-    ape,
-    phangorn
+NeedsCompilation: no
+Packaged: 2022-09-15 18:22:55 UTC; yingli
 RoxygenNote: 7.2.1
