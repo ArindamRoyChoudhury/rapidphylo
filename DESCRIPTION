@@ -12,7 +12,7 @@ Authors@R: c(
 Author: Arindam RoyChoudhury [aut, cre, cph], Jing Peng [aut], Ying Li
     [aut], Laura Kubatko [aut, ths]
 Maintainer: Arindam RoyChoudhury <arr2014@med.cornell.edu>
-Description: Root Distances Method estimates tree-topology from large
+Description: RDM estimates tree-topology from large
     allele frequency data using Root Distances Method. Assuming a Brownian
     Motion model, likelihood estimation is used to estimate the Root
     Distances, from which the tree-topology is inferred.
