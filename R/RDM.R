@@ -15,14 +15,14 @@
 #'
 #' @examples
 #' # A dataset "Human_Allele_Frequencies" is loaded with the package;
-#' # it has allele frequencies in 402,430 sites for 
+#' # it has allele frequencies in 402,430 sites for
 #' # 48 human populations and one outgroup human population.
 #'
 #' # check data dimension
 #' dim(Human_Allele_Frequencies)
 #'
 #' # run RDM function
-#' rd_tre <- RDM(Human_Allele_Frequencies, outgroup = 'San', use = "pairwise.complete.obs")
+#' rd_tre <- RDM(Human_Allele_Frequencies, outgroup = "San", use = "pairwise.complete.obs")
 #'
 #' # result visualization
 #' plot(rd_tre, use.edge.length = FALSE, cex = 0.5)
