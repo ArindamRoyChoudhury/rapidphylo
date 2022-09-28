@@ -3,14 +3,14 @@ Package: rapidphylo
 Title: Rapidly Estimate Phylogeny from Large Allele Frequency Data Using Root Distances Method
 Version: 0.1.0
 Authors@R: c(
-    person("Arindam", "RoyChoudhury", , "yil4013@med.cornell.edu", role = c("aut", "cre", "cph")),
+    person("Arindam", "RoyChoudhury", , "arr2014@med.cornell.edu", role = c("aut", "cre", "cph")),
     person("Jing", "Peng", role = "aut"),
     person("Ying", "Li", role = "aut"),
     person("Laura", "Kubatko", role = c("aut", "ths"))
   )
 Author: Arindam RoyChoudhury [aut, cre, cph], Jing Peng [aut], Ying Li
     [aut], Laura Kubatko [aut, ths]
-Maintainer: Arindam RoyChoudhury <yil4013@med.cornell.edu>
+Maintainer: Arindam RoyChoudhury <arr2014@med.cornell.edu>
 Description: RDM estimates tree-topology from large
     allele frequency data using Root Distances Method. Assuming a Brownian
     Motion model, likelihood estimation is used to estimate the Root
