@@ -28,5 +28,4 @@ Encoding: UTF-8
 LazyData: true
 LazyDataCompression: xz
 NeedsCompilation: no
-Packaged: 2022-09-15 18:22:55 UTC; yingli
 RoxygenNote: 7.2.1
