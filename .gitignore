@@ -11,3 +11,4 @@ vignettes/*.html
 vignettes/*.pdf
 .httr-oauth
 *_cache/
+/cache/
