@@ -16,7 +16,7 @@ RDM(
 
 \item{outgroup}{A variable that can be either the population name or a numerical row number of the outgroup data.}
 
-\item{use}{Specify which part of data is used to compute the covariance matrix. The options are "\code{complete.obs}", "\code{pairwise.complete.obs}", "\code{everything}", "\code{all.obs}", and "\code{na.or.complete}". See \code{\link[stats:cov]{stats::cov}} for more details.}
+\item{use}{Specify which part of data is used to compute the covariance matrix. The options are "\code{complete.obs}", "\code{pairwise.complete.obs}", "\code{everything}", "\code{all.obs}", and "\code{na.or.complete}". See \code{stats::cov} for more details.}
 }
 \value{
 An estimated tree-topology in Newick format.
