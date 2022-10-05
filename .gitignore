@@ -6,3 +6,4 @@
 *-Ex.R
 /*.tar.gz
 /*.Rcheck/
+.Rproj.user/
