@@ -14,7 +14,7 @@ Author: Arindam RoyChoudhury [aut, cre, cph], Jing Peng [aut], Ying Li
 Maintainer: Arindam RoyChoudhury <arr2014@med.cornell.edu>
 Description: Rapidly estimates tree-topology from large allele frequency
     data using Root Distances Method, under a Brownian Motion Model. See
-    Peng at el. 2021 Molecular Phylogenetics and Evolution 161 107142.
+    Peng et al. 2021 Molecular Phylogenetics and Evolution 161 107142.
 License: AGPL-3
 URL: https://github.com/ArindamRoyChoudhury/rapidphylo
 BugReports: https://github.com/ArindamRoyChoudhury/rapidphylo/issues
