@@ -8,13 +8,47 @@
 
 - There were no ERRORs or WARNINGs. 
 
-- NOTE:
+- NOTE:    
     > checking installed package size ... NOTE  
     > installed size is 14.1Mb  
     > sub-directories of 1Mb or more:  
     > data  14.1Mb
   
-    Response: The data is necessary.
+    Response: The large size of the package is because the example dataset is large. The dataset is necessary.
+    
+    > checking examples ... NOTE  
+    > Examples with CPU (user + system) or elapsed time > 5s  
+    
+    Response: This is because a large dataset is used in the example. The dataset is necessary. 
+
+
+    > checking for detritus in the temp directory ... NOTE  
+    > Found the following files/directories:  
+    > 'lastMiKTeXException'  
+
+    Response: This is a known Rhub issue (https://github.com/r-hub/rhub/issues/503) and can likely be ignored.
+
+
+
+    > On fedora-clang-devel (r-devel)  
+    > checking HTML version of manual ... NOTE  
+    > Skipping checking HTML validation: no command 'tidy' found  
+    > Skipping checking math rendering: package 'V8' unavailable  
+
+    Response: This note does not seem to be related to our R package and can likely be ignored. 
+
+
+    > checking CRAN incoming feasibility ... [6s/13s] NOTE  
+    > Maintainer: ‘Arindam RoyChoudhury <arr2014@med.cornell.edu>’  
+    > New submission  
+    > Possibly misspelled words in DESCRIPTION:  
+    > Peng (17:5)  
+    > Phylogenetics (17:32)  
+    > al (17:13)  
+    > et (17:10)  
+
+
+    Response: This is a new submission. These words are not misspelled.
     
 ## Downstream dependencies
 
