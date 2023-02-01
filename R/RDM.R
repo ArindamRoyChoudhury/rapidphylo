@@ -17,7 +17,7 @@
 #'
 #' @examples
 #' # A dataset "Human_Allele_Frequencies" is loaded with the package;
-#' # it has allele frequencies in 44,000 sites for
+#' # it has allele frequencies in 31,000 sites for
 #' # 4 human populations and one outgroup human population.
 #'
 #' # check data dimension

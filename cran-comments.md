@@ -1,5 +1,41 @@
 # Resubmission
 
+This is a resubmission. In this version (0.1.2), the documentation of `RDM()` was updated (see NEWS.md for details).
+
+## Test environments
+
+- R-hub windows-x86_64-devel (r-devel)
+- R-hub ubuntu-gcc-release (r-release)
+- R-hub fedora-clang-devel (r-devel)
+
+## R CMD check results
+
+- There were no ERRORs or WARNINGs. 
+
+- NOTE:    
+
+
+    > checking for detritus in the temp directory ... NOTE  
+    > Found the following files/directories:  
+    > 'lastMiKTeXException'  
+
+    Response: This is a known Rhub issue (https://github.com/r-hub/rhub/issues/503) and can likely be ignored.
+
+    > On fedora-clang-devel (r-devel)  
+    > checking HTML version of manual ... NOTE  
+    > Skipping checking HTML validation: no command 'tidy' found  
+    > Skipping checking math rendering: package 'V8' unavailable  
+
+    Response: This note does not seem to be related to our R package and can likely be ignored. 
+
+## Downstream dependencies
+
+There are currently no downstream dependencies for this package.
+
+# Previous cran-comments
+
+## Resubmission
+
 This is a resubmission. In this version (0.1.1), several new features were added (see NEWS.md for details).
 
 ## Test environments
@@ -25,7 +61,6 @@ This is a resubmission. In this version (0.1.1), several new features were added
 
 There are currently no downstream dependencies for this package.
 
-# Previous cran-comments
 
 ## Test environments
 
